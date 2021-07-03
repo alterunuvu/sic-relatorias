@@ -1,0 +1,25 @@
+.date_input {
+    border-radius: 5px;
+    border: 1px solid #DCDCDC;
+    background: #FFFFFF;
+    height: 36px;
+    outline-width: 0;
+    color:#4B4B4B;
+    padding: 0px 0px 0px 10px;
+    margin: 0px 5px 0px 0px;
+    width: 100%;
+}
+
+.date_div {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+
+.date_range {
+    display: flex;
+}
+
+.range_div {
+    width: 85%;
+}

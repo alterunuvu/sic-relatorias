@@ -1,0 +1,92 @@
+@import "../../../index.css";
+
+.results-header {
+  display: flex;
+  align-items: center;
+  box-shadow: inset 0px -1px 0px #cccccc;
+}
+
+.results-view {
+  display: flex;
+  width: 100%;
+  min-height: 90vh;
+}
+
+.results-view__title {
+  margin-bottom: 16px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #4b4b4b;
+  &.order {
+    margin-bottom: 0;
+  }
+}
+
+.results-view__search-results {
+  background-color: #fafbfd;
+  width: 66%;
+  padding-left: 75px;
+  padding-right: 35px;
+  padding-top: 35px;
+  border-right: 2px solid #e6effd;
+}
+
+.results-view__time-range {
+  margin-bottom: 25px;
+}
+
+.results-view__filters {
+  margin-bottom: 25px;
+}
+
+.results-view__divider {
+  width: 100%;
+  border: 1px solid #f0f3f5;
+  margin-bottom: 40px;
+}
+
+.results-view__cards {
+  position: relative;
+}
+
+.results-view__cards-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  height: 25px;
+  position: relative;
+}
+
+.results-view__pagination {
+  top: 120%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2%;
+}
+
+.results-view__order-by {
+  display: flex;
+  align-items: center;
+  height: 25px;
+}
+
+.results-view__general-info {
+  width: 34%;
+}
+
+.react-dropdown-select-input {
+  min-height: 25px;
+  height: 25px;
+}
+
+.css-1yvm1x6-InputComponent {
+  width: 70%;
+}
+
+.result-sort-selector {
+  .css-1yvm1x6-InputComponent {
+    display: none;
+  }
+}

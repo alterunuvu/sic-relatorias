@@ -1,0 +1,96 @@
+.card {
+  width: 100%;
+  height: 220px;
+  background-color: white;
+  border-radius: 16px;
+  border: none;
+  margin-bottom: 25px;
+  padding: 16px 0 16px 16px;
+  cursor: pointer;
+  display: flex;
+  transition: 0.5s ease-in-out forwards;
+  &.active {
+    // width: calc(100% - 4px);
+    // height: 216px;
+    box-shadow: 0 0 0px 4px #3366cc;
+  }
+}
+
+.card__header {
+  width: 100%;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #dcdcdc;
+  margin-bottom: 15px;
+  .card__title {
+    font-size: 18px;
+    color: #3366cc;
+    font-weight: 600;
+  }
+}
+
+.card__info {
+  width: 70%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 8px 8px;
+  font-size: 14px;
+  .card__info-value {
+    color: #4b4b4b;
+  }
+  .card__info-title {
+    color: #3366cc;
+  }
+}
+
+.card__relevance {
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 14px;
+  .card__circle-progress {
+    width: 30%;
+    margin: 0 auto 8px;
+  }
+  .card__relevance-label {
+    display: block;
+  }
+}
+
+.card__save {
+  width: auto;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: #3366cc;
+  font-size: 14px;
+  .card__save-label {
+    margin-top: 8px;
+    display: block;
+  }
+}
+
+.card__section1 {
+  width: 85%;
+  margin-right: 15px;
+}
+
+.card__section2 {
+  width: 15%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.CircularProgressbar-text {
+  margin: 0 auto;
+  font-weight: 600;
+}

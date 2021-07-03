@@ -1,0 +1,71 @@
+.container {
+  display: grid;
+  grid-template: 12% 80% / 2fr 1fr;
+  width: 46vw;
+  grid-template-areas: "DROPZONE__Title DROPZONE__Question" "DROPZONE__files DROPZONE__files";
+  margin-bottom: 1rem;
+}
+
+.DROPZONE__Title {
+  grid-area: DROPZONE__Title;
+  text-align: left;
+  color: #4b4b4b;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.DROPZONE__Question {
+  grid-area: DROPZONE__Question;
+  text-align: right;
+  color: #3366cc;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 12px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.DROPZONE__files {
+  grid-area: DROPZONE__files;
+  text-align: center;
+  border: 1px dashed #cecece;
+  border-width: 2px;
+  font-weight: 400;
+  font-size: 14px;
+  border-radius: 5px;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+  background-color: #fafafa;
+  transition: border 0.24s ease-in-out;
+}
+
+.docs_icons {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.select_document {
+  color: #3366cc;
+  text-decoration: underline;
+}
+
+.files_list {
+  width: 60%;
+  align-items: center;
+  margin: auto;
+}
+
+.file_item {
+  background-color: rgb(226, 226, 226);
+  padding: 1rem;
+  border-radius: 15px;
+  list-style: none;
+}
+
+.title-modal {
+  text-align: center;
+}
+
+.modal-content {
+  margin-top: 1rem;
+}

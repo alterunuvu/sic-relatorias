@@ -1,0 +1,100 @@
+.filter_window {
+    background: #FFFFFF;
+    width: 70%;
+    border-radius: 10px;
+}
+
+.window_title {
+    color: #3366CC;
+    font-size: 16px;
+    border-bottom: 1px solid #DCDCDC;
+    padding: 2%;
+}
+
+.section_title {
+    color: #3366CC;
+    border-top: 1px solid #DCDCDC;
+    font-size: 14px;
+    padding: 2%;
+}
+
+.filter_row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    width: 100%;
+}
+
+.filter_row > div:not(.filter_section .react-datepicker-wrapper){
+    margin: 0px 5px 0px 0px;
+    width: 100%;
+}
+
+.filter_row > .react-datepicker-wrapper{
+    margin: 0px 20px 0px 0px;
+    width: 50%;
+}
+
+.filter_section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0% 2% 0% 2%;
+    width: 33%;
+}
+
+.filter_section > div:not(.filter_subtitle) {
+    //margin: 0px 5px 0px 0px;
+    width: 100%;
+    height: 36px;
+}
+
+.filter_subtitle {
+    color: #4B4B4B;
+    font-size: 14px;
+    padding: 2%;
+}
+
+.filter_dropdown {
+    border-radius: 10px;
+    height: 36px;
+    color:#4B4B4B;
+}
+
+.input_text {
+    border-radius: 5px;
+    border: 1px solid #DCDCDC;
+    background: #FFFFFF;
+    height: 36px;
+    outline-width: 0;
+    color:#4B4B4B;
+    width: 96%;
+    padding: 0px 0px 0px 10px;
+}
+
+.date_input {
+    border-radius: 5px;
+    border: 1px solid #DCDCDC;
+    background: #FFFFFF;
+    height: 36px;
+    outline-width: 0;
+    color:#4B4B4B;
+    padding: 0px 0px 0px 10px;
+    margin: 0px 5px 0px 0px;
+    width: 100%;
+}
+
+.button_section {
+    text-align: right;
+    padding: 2%;
+    border-top: 1px solid#DCDCDC;
+}
+
+.react-dropdown-select-content > span {
+    color: #4B4B4B;
+}
+
+.react-dropdown-select-item {
+    color: #4B4B4B;
+}
